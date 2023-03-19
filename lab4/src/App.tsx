@@ -2,7 +2,8 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import AddDataForm from './component/AddDataForm';
 import DisplayData from './component/DisplayData';
-import Headers from './component/ListHeaders';
+import './App.css';
+
 const App=()=>{
     return(
         <>
