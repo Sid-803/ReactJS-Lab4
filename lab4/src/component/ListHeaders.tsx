@@ -10,10 +10,12 @@ const HeadersIN = () => {
     const [showform, setShowForm] = useState<boolean>(false);
     
     const success =() => {
-        setShowForm(false)
+        setShowForm(false);
+        window.location.reload(false);
     }
     const cancel = () => { 
-       setShowForm(false)
+       setShowForm(false);
+        window.location.reload(false);
     }
 
     return(
